@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets е лесен за използване и високо-функционален бот. \nСъпорт за него може да откриете тук https://discord.gg/VtV3rSk\nИзползвайте /help за лист с команди\nЗапочнете настройка с /setup",
+	"commands.about": "Tickets е лесен за използване и високо-функционален бот. \nСъпорт за него може да откриете тук https://miniplays.de/discord\nИзползвайте /help за лист с команди\nЗапочнете настройка с /setup",
 	"commands.add.no_members": "Трябва да споменете членовете, които желаете да добавите",
 	"commands.add.no_permission": "Нямате привилегии да добавяте потребители към този тикет",
 	"commands.addadmin.no_members": "Трябва да споменете името на потребителя или името на ролята, на която желаете да дадете админ привилегии",
@@ -8,7 +8,7 @@
 	"commands.blacklist.no_members": "Трябва да споменете потребителя, на който желаете да дадете блеклист",
 	"commands.blacklist.self": "Не можете да блеклистнете себе си",
 	"commands.claim.success": "Вашият билет ще бъде поет от %s",
-	"commands.invite": "[Натисни тук](<https://invite.ticketsbot.net>)",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "Трябва да поясните език или знаме. Достъпните езици са",
 	"commands.open.ticket_limit": "Вие можете да отворите само %d %s тикет наведнъж",
 	"commands.open.too_many_tickets": "Има твърде много тикети в тази категорията. Помолете администратор да затвори няколко или да ги премести в друга категория",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Тикет лимита беше променен на `%d`",
 	"setup.transcript.invalid": "Трябва да споменете валиден канал в сървъра (Пример <#%d>)\nНапример: /setup transcripts #logs",
 	"setup.transcript.success": "Каналът за тикет логове е променен на <#%d>",
-	"commands.language.help_wanted": "Говорите друг език? Може да посетите дискорда ни https://discord.gg/bh6aAfP ако имате интерес да помогнете в превода на бота на повече езици",
+	"commands.language.help_wanted": "Говорите друг език? Може да посетите дискорда ни https://miniplays.de/discord ако имате интерес да помогнете в превода на бота на повече езици",
 	"commands.rename.too_long": "Имената на каналите не трябва да са повече от 100 символа",
 	"commands.autoclose.configure": "Посетете [dashboard](https://dashboard ticketsbot.net/manage/%d/panels), за да промените настройките на автоматичното затваряне",
 	"help.autoclose": "Подобни команди на autoclose",
@@ -266,7 +266,7 @@
 			},
 			"about": "Премиум, Ви дава възможност за повече панели, статистики, къстъм бот и още много неща! Посети нашия [website] (https://tickets.miniplays.de/premium), за да научиш повече.",
 			"already_activated": "Добри новини! Премиум вече е активен в този сървър.",
-			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете [нашия whitelabel сетъп](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете Subsciptions currently not available.",
 			"discord": {
 				"no_subscription": ""
 			},

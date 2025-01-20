@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets istifadəsi asan və yüksək konfiqurasiya edilə bilən bilet və dəstək botudur.\\nDəstək serveri: https://discord.gg/VtV3rSk\\nƏmrlər: `/help` yazın\\n`/setup` işlətməklə başlayın",
+	"commands.about": "Tickets istifadəsi asan və yüksək konfiqurasiya edilə bilən bilet və dəstək botudur.\\nDəstək serveri: https://miniplays.de/discord\\nƏmrlər: `/help` yazın\\n`/setup` işlətməklə başlayın",
 	"commands.add.no_members": "Bilete əlavə etmək üçün üzvləri qeyd etməlisiniz",
 	"commands.add.no_permission": "Bu biletə adam əlavə etmək icazəniz yoxdur",
 	"commands.addadmin.no_members": "Admin imtiyazları vermək üçün istifadəçini qeyd etməli və ya rolu adlandırmalısınız",
@@ -8,7 +8,7 @@
 	"commands.blacklist.no_members": "",
 	"commands.blacklist.self": "",
 	"commands.claim.success": "",
-	"commands.invite": "",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "",
 	"commands.open.ticket_limit": "",
 	"commands.open.too_many_tickets": "",

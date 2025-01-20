@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets je jednoduchy na pouzivanie a vysoko upraviteľny bot pre podporu a tickety.\\nPodpora: https://discord.gg/VtV3rSk\\nPríkazy: Napíš `/help`\\n`/setup`: Začať konfiguráciu",
+	"commands.about": "Tickets je jednoduchy na pouzivanie a vysoko upraviteľny bot pre podporu a tickety.\\nPodpora: https://miniplays.de/discord\\nPríkazy: Napíš `/help`\\n`/setup`: Začať konfiguráciu",
 	"commands.add.no_members": "Musíte označiť užívateľa aby ste ich mohli pridať",
 	"commands.add.no_permission": "Nemáš oprávnenie na pridávanie ľudí do tohto ticketu",
 	"commands.addadmin.no_members": "Musíte uviesť používateľa alebo pomenovať rolu, ktorej chcete udeliť oprávnenia správcu",
@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Musíte uviesť používateľa, ktorý prepína stav čiernej listiny pre",
 	"commands.blacklist.self": "Nemôžete sa zaradiť na čiernu listinu",
 	"commands.claim.success": "Váš ticket spracuje %s",
-	"commands.invite": "[Kliknite sem](<https://invite.ticketsbot.net>)",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "Musíte zadať kód jazyka alebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Naraz môžete otvoriť iba %d %s",
 	"commands.open.too_many_tickets": "V kategórii ticketov je príliš veľa ticketov. Požiadajte správcu, aby niektoré z nich zatvoril, presunul do inej kategórie alebo vytvoril kategóriu preplnených lístkov.\n\nIde o **Discordom stanovený limit** 50 kanálov na kategóriu.",
 	"commands.panel": "Navštívte stránku <https://ticketsdashboard.miniplays.de/manage/%d/panels> a nakonfigurujte panel",
-	"commands.premium": "Prémiové predplatné si môžete zakúpiť na <https://www.patreon.com/ticketsbot>.\\nPremium poskytuje mnoho výhod, ako napríklad:\\n````diff\\n+ Vytváranie neobmedzeného počtu panelov tiketov\\n+ Prispôsobenie mena bota, avatara a statusu (whitelabel)\\n+ Podrobné štatistiky o serveri, používateľoch a pracovníkoch podpory\\n+ Žiadny branding v pätičke správ\\n+ Podpora vývoja a pomoc pri platení nákladov na server\\n````\\nAlternatívne môžete hlasovať na <https://vote.ticketsbot.net> a získať premium zadarmo na 24 hodín",
+	"commands.premium": "Prémiové predplatné si môžete zakúpiť na  Currently Not Possible.\\nPremium poskytuje mnoho výhod, ako napríklad:\\n````diff\\n+ Vytváranie neobmedzeného počtu panelov tiketov\\n+ Prispôsobenie mena bota, avatara a statusu (whitelabel)\\n+ Podrobné štatistiky o serveri, používateľoch a pracovníkoch podpory\\n+ Žiadny branding v pätičke správ\\n+ Podpora vývoja a pomoc pri platení nákladov na server\\n````\\nAlternatívne môžete hlasovať na  Currently Not Possible a získať premium zadarmo na 24 hodín",
 	"commands.premium.invalid_key": "Neplatný kľúč. Skontrolujte, či ste ho skopírovali správne.",
 	"commands.remove.no_permission": "Nemáte povolenie odstraňovať ľudí z tohto ticketu",
 	"commands.remove.staff": "Zamestnancov nemôžete z ticketu odobrať",
@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Tento lístok nie je nárokovaný",
 	"commands.unclaim.not_claimer": "Odhlásiť ticket môžu len administrátori a používateľ, ktorý ho nárokoval",
 	"commands.unclaim.success": "Všetci zástupcovia podpory teraz môžu reagovať na ticket",
-	"commands.vote": "Kliknutím sem môžete hlasovať za 24 hodín prémiových služieb zadarmo:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "Kliknutím sem môžete hlasovať za 24 hodín prémiových služieb zadarmo:\\n Currently Not Possible",
 	"generic.invalid_argument": "Neplatný argument: pozri použitie",
 	"generic.invalid_user": "Nepodarilo sa nájsť cieľového používateľa",
 	"generic.no_permission": "Nemáte na to povolenie",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Limit ticketov bol aktualizovaný na `%d`",
 	"setup.transcript.invalid": "Musíte uviesť platný kanál na serveri (napr. <#%d>)\\n**Príklad:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Kanál prepisov bol zmenený na <#%d>",
-	"commands.language.help_wanted": "Hovoríte iným jazykom? Pripojte sa k nášmu [serveru podpory](https://discord.gg/bh6aAfP), ak máte záujem pomôcť pri preklade bota do viacerých jazykov",
+	"commands.language.help_wanted": "Hovoríte iným jazykom? Pripojte sa k nášmu [serveru podpory](https://miniplays.de/discord), ak máte záujem pomôcť pri preklade bota do viacerých jazykov",
 	"commands.rename.too_long": "Názvy kanálov nemôžu byť dlhšie ako 100 znakov",
 	"commands.autoclose.configure": "Ak chcete zmeniť nastavenia automatického zatvárania, navštívte [dashboard](https://ticketsdashboard.miniplays.de/manage/%d/settings)",
 	"help.autoclose": "Príkazy súvisiace s automatickým zatvorením",
@@ -222,7 +222,7 @@
 			"select": "Vyberte jazyk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` možno použiť len v režime vlákna. Navštívte naše [docs](https://docs.ticketsbot.net/features/thread-mode) a dozviete sa viac o vláknach",
+			"channel_mode": "`/on-call` možno použiť len v režime vlákna. Navštívte naše Docs currently not available a dozviete sa viac o vláknach",
 			"success": "Teraz ste v hovore",
 			"remove_success": "Už nie ste v hovore"
 		},
@@ -245,7 +245,7 @@
 			"please_wait": "Počkajte, prosím...",
 			"success_after_check": "Premium je teraz na tomto serveri aktívne!",
 			"link_patreon_account": "Odkaz na účet Patreon",
-			"no_subscription": "Nepodarilo sa nájsť aktívne predplatné Patreon prepojené s vaším účtom Discord. Uistite sa, že ste [prepojili svoje účty Patreon a Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), a ďalej počkajte 10 minút.",
+			"no_subscription": "Nepodarilo sa nájsť aktívne predplatné Patreon prepojené s vaším účtom Discord. Uistite sa, že ste Subsciptions currently not available, a ďalej počkajte 10 minút.",
 			"open_form": "Otvoriť formulár",
 			"open_form_description": "Stlačením tlačidla nižšie znovu otvoríte formulár",
 			"use_key_anyway": "Používanie prémiového kľúča v každom prípade",
@@ -266,7 +266,7 @@
 			},
 			"about": "Premium vám poskytne prístup k ďalším panelom, štatistikám, vlastnému botovi a ďalším funkciám! Navštívte našu [webovú stránku](https://tickets.miniplays.de/premium) a dozviete sa viac.",
 			"already_activated": "Dobré správy! Premium je už na tomto serveri aktívne.",
-			"already_activated_whitelabel": "Dobré správy! Premium je už na tomto serveri aktívne.\n\nAk chcete získať pomoc pri začatí používania whitelabel, prečítajte si [nášho sprievodcu nastavením whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Dobré správy! Premium je už na tomto serveri aktívne.\n\nAk chcete získať pomoc pri začatí používania whitelabel, prečítajte si Subsciptions currently not available.",
 			"discord": {
 				"no_subscription": ""
 			},
@@ -323,7 +323,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Chcete preskúmať viac? Naša [dokumentácia](https://docs.ticketsbot.net) vás naučí, ako nakonfigurovať každý aspekt bota!"
+			"docs": "Chcete preskúmať viac? Naša Docs currently not available vás naučí, ako nakonfigurovať každý aspekt bota!"
 		},
 		"threads": {
 			"no_notification_channel": "Musíte poskytnúť kanál na oznamovanie upozornení",

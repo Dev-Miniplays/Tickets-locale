@@ -8,7 +8,7 @@
 	"commands.blacklist.no_members": "",
 	"commands.blacklist.self": "",
 	"commands.claim.success": "",
-	"commands.invite": "",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "",
 	"commands.open.ticket_limit": "",
 	"commands.open.too_many_tickets": "",

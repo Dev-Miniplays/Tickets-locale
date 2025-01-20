@@ -1,5 +1,5 @@
 {
-	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://discord.gg/VtV3rSk\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
+	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://miniplays.de/discord\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
 	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
 	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
 	"commands.addadmin.no_members": "Anda perlu menyebutkan pengguna atau memberi nama peran untuk memberikan hak istimewa admin",
@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Anda perlu menyebutkan pengguna untuk mengaktifkan status daftar hitam",
 	"commands.blacklist.self": "Anda tidak dapat memasukkan diri Anda sendiri ke dalam daftar hitam",
 	"commands.claim.success": "Tiket Anda akan ditangani oleh %s",
-	"commands.invite": "[Klik disini](<https://invite.ticketsbot.net>)",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "Anda perlu menentukan kode atau tanda bahasa. Bahasa yang tersedia:\\n%s",
 	"commands.open.ticket_limit": "Anda hanya dapat membuka %d %s sekaligus",
 	"commands.open.too_many_tickets": "Anda terlalu banyak tiket di kategori tiket. Minta admin untuk menutup beberapa, memindahkannya ke kategori lain, atau mgrenyiapkan kategori tambahan.\n\nIni adalah **Batas yang diberlakukan Discord** sebanyak 50 saluran per kategori.",
 	"commands.panel": "Kunjungi <https://ticketsdashboard.miniplays.de/manage/%d/panels> untuk mungonfigurasi panel",
-	"commands.premium": "Anda dapat membeli langganan premium dari <https://www.patreon.com/ticketsbot>.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di <https://vote.ticketsbot.net> untuk mendapatkan premium gratis selama 24 jam",
+	"commands.premium": "Anda dapat membeli langganan premium dari  Currently Not Possible.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di  Currently Not Possible untuk mendapatkan premium gratis selama 24 jam",
 	"commands.premium.invalid_key": "Kunci tidak sesuai. Pastikan Anda telah menyalinnya dengan benar.",
 	"commands.remove.no_permission": "Anda tidak memiliki izin untuk menghapus orang dari tiket ini",
 	"commands.remove.staff": "Anda tidak dapat menghapus staf dari ticket",
@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
 	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
 	"commands.unclaim.success": "Semua perwakilan dukungan sekarang dapat merespons tiket tersebut",
-	"commands.vote": "Klik di sini untuk memilih premium gratis 27 jam:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "Klik di sini untuk memilih premium gratis 27 jam:\\n Currently Not Possible",
 	"generic.invalid_argument": "Argumen tidak valid: lihat penggunaan",
 	"generic.invalid_user": "Tidak dapat menemukan pengguna target",
 	"generic.no_permission": "Anda tidak memiliki izin untuk ini",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Batas tiket telah diperbarui menjadi `%d`",
 	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Saluran transkrip telah diubah menjadi <#%d>",
-	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](https://discord.gg/bh6aAfP) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
+	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](https://miniplays.de/discord) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
 	"commands.rename.too_long": "Nama saluran tidak boleh lebih dari 100 karakter",
 	"commands.autoclose.configure": "Kunjungi [dasbor](https://ticketsdashboard.miniplays.de/manage/%d/settings) untuk mengubah pengaturan tutup otomatis",
 	"help.autoclose": "Perintah terkait tutup otomatis",
@@ -222,7 +222,7 @@
 			"select": "Pilih bahasa (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](https://docs.ticketsbot.net/features/thread-mode) untuk mengetahui lebih lanjut tentang rangkaian pesan",
+			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi Docs currently not available untuk mengetahui lebih lanjut tentang rangkaian pesan",
 			"success": "Anda sekarang sedang dihubungi",
 			"remove_success": "Anda tidak lagi dapat dihubungi"
 		},
@@ -245,7 +245,7 @@
 			"please_wait": "Mohon tunggu...",
 			"success_after_check": "Premium sekarang aktif di server ini!",
 			"link_patreon_account": "Tautkan Akun Patreon",
-			"no_subscription": "Tidak dapat menemukan langganan Patreon aktif yang tertaut ke akun Discord Anda. Pastikan Anda [telah menautkan akun Patreon dan Discord Anda](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), dan tunggu 10 menit lagi.",
+			"no_subscription": "Tidak dapat menemukan langganan Patreon aktif yang tertaut ke akun Discord Anda. Pastikan Anda Subsciptions currently not available, dan tunggu 10 menit lagi.",
 			"open_form": "Buka Formulir",
 			"open_form_description": "Tekan tombol di bawah untuk membuka kembali formulir",
 			"use_key_anyway": "Tetap gunakan Kunci Premium",
@@ -266,7 +266,7 @@
 			},
 			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](https://tickets.miniplays.de/premium) untuk mengetahui lebih lanjut.",
 			"already_activated": "Kabar bait! Premium sudah aktif di server ini.",
-			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca Subsciptions currently not available.",
 			"discord": {
 				"no_subscription": "Premium dapat dibeli langsung di Discord. Klik tombol di bawah pesan ini untuk membuka halaman manajemen langganan.\n\nSetelah dibeli, harap tunggu hingga 5 menit agar langganan terdeteksi."
 			},
@@ -323,7 +323,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](https://docs.ticketsbot.net) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
+			"docs": "Ingin menjelajahi lebih jauh? Docs currently not available kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Anda harus menyediakan saluran notifikasi tiket",

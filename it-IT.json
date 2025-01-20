@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer di supporto: https://discord.gg/VtV3rSk\\nComandi: Scrivi `/help`\\nInizia eseguendo `/setup`",
+	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer di supporto: https://miniplays.de/discord\\nComandi: Scrivi `/help`\\nInizia eseguendo `/setup`",
 	"commands.add.no_members": "È necessario menzionare i membri da aggiungere al ticket",
 	"commands.add.no_permission": "Non hai i permessi per aggiungere persone a questo ticket",
 	"commands.addadmin.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli privilegi da admin",
@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "È necessario menzionare un utente per aggiungerlo o toglierlo dalla blacklist",
 	"commands.blacklist.self": "Non puoi aggiungerti alla blacklist",
 	"commands.claim.success": "Il tuo ticket verrà gestito da %s",
-	"commands.invite": "[Clicca qui](<https://invite.ticketsbot.net>)",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "È necessario specificare un codice lingua o una bandiera.\nLingue disponibili:\\n%s",
 	"commands.open.ticket_limit": "Sei in grado di aprire %d %s alla volta",
 	"commands.open.too_many_tickets": "Ci sono troppi ticket nella categoria dei ticket. Chiedi ad un admin di chiuderne alcuni o di spostarli in un'altra categoria",
 	"commands.panel": "Visita <https://ticketsdashboard.miniplays.de/manage/%d/panels> per configurare un pannello",
-	"commands.premium": "Puoi acquistare un abbonamento premium da <https://www.patreon.com/ticketsbot>.\\nIl premium da molti vantaggi, come:\\n```diff\\n+ Creare pannelli per ticket illimitati\\n+ Personalizzare il nome del bot, l'avatar e lo stato (whitelabel)\\n+ Statistiche dettagliate sul server, utenti e supporto rappresentativo\\n+ Nessun branding alla fine dei messaggi\\n+ Supporta lo sviluppo e mi aiuta a pagare i costi del server \\n```\\n\\nIn alternativa, puoi votare su <https://vote.ticketsbot.net> per avere il premium gratis per 24 ore",
+	"commands.premium": "Puoi acquistare un abbonamento premium da  Currently Not Possible.\\nIl premium da molti vantaggi, come:\\n```diff\\n+ Creare pannelli per ticket illimitati\\n+ Personalizzare il nome del bot, l'avatar e lo stato (whitelabel)\\n+ Statistiche dettagliate sul server, utenti e supporto rappresentativo\\n+ Nessun branding alla fine dei messaggi\\n+ Supporta lo sviluppo e mi aiuta a pagare i costi del server \\n```\\n\\nIn alternativa, puoi votare su  Currently Not Possible per avere il premium gratis per 24 ore",
 	"commands.premium.invalid_key": "Chiave non valida. Assicurati di averla copiata correttamente.",
 	"commands.remove.no_permission": "Non hai i permessi per rimuovere persone da questo ticket",
 	"commands.remove.staff": "Non puoi rimuovere lo staff da un ticket",
@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Questo ticket non è stato rivendicato",
 	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che hanno rivendicato il ticket possono annullare la rivendicazione",
 	"commands.unclaim.success": "Tutto il supporto rappresentativo può ora rispondere al ticket",
-	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n Currently Not Possible",
 	"generic.invalid_argument": "Argomento non valido: fare riferimento all'utilizzo",
 	"generic.invalid_user": "Impossibile trovare l'utente di destinazione",
 	"generic.no_permission": "Non hai i permessi per questo",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Il limite dei ticket è stato aggiornato a `%d`",
 	"setup.transcript.invalid": "Devi menzionare un canale valido nel server (e.g. <#%d>)\\n**Esempio:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Il canale delle trascrizioni è stato cambiato in <#%d>",
-	"commands.language.help_wanted": "Parli un'altra lingua? Unisciti al nostro [server di supporto](https://discord.gg/bh6aAfP) se sei interessato ad aiutare a tradurre il bot in altre lingue",
+	"commands.language.help_wanted": "Parli un'altra lingua? Unisciti al nostro [server di supporto](https://miniplays.de/discord) se sei interessato ad aiutare a tradurre il bot in altre lingue",
 	"commands.rename.too_long": "I nomi dei canali non possono essere lunghi più di 100 caratteri",
 	"commands.autoclose.configure": "Visita la [dashboard](https://ticketsdashboard.miniplays.de/manage/%d/settings) per cambiare le impostazioni per la chiusura automatica",
 	"help.autoclose": "Comandi relativi alla chiusura automatica",
@@ -222,7 +222,7 @@
 			"select": "Seleziona una lingua (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri [docs](https://docs.ticketsbot.net/features/thread-mode) per saperne di più sui thread",
+			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri Docs currently not available per saperne di più sui thread",
 			"success": "Sei ora in servizio",
 			"remove_success": "Non sei più in servizio"
 		},
@@ -245,7 +245,7 @@
 			"please_wait": "Attendere prego...",
 			"success_after_check": "Premium è ora attivo in questo server!",
 			"link_patreon_account": "Collega l'account Patreon",
-			"no_subscription": "Non è stato possibile trovare un abbonamento Patreon attivo collegato al tuo account Discord. Assicurati di [aver collegato i tuoi account Discord e Patreon](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) e aspettato 10 minuti.",
+			"no_subscription": "Non è stato possibile trovare un abbonamento Patreon attivo collegato al tuo account Discord. Assicurati di Subsciptions currently not available e aspettato 10 minuti.",
 			"open_form": "Apri un form",
 			"open_form_description": "Premi il pulsante qui sotto per riaprire il form",
 			"use_key_anyway": "Usa comunque la chiave premium",
@@ -266,7 +266,7 @@
 			},
 			"about": "Premium ti dà accesso a più pannelli, statistiche, un bot personalizzato e molto altro! Visita il nostro [website](https://tickets.miniplays.de/premium) per saperne di più.",
 			"already_activated": "Buone notizie! Premium è già attivo in questo server.",
-			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi [la nostra guida di configurazione whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi Subsciptions currently not available.",
 			"discord": {
 				"no_subscription": "Il servizio premium può essere acquistato direttamente su Discord. Clicca il pulsante sotto questo messaggio per aprire la pagina di gestione dell'abbonamento.\n\nNel momento in cui viene acquistato, si prega di consentire al bot fino a 5 minuti per rilevare l'abbonamento."
 			},
@@ -323,7 +323,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vuoi saperne di più? La nostra [documentation](https://docs.ticketsbot.net) ti insegnerà come configurare ogni aspetto del bot!"
+			"docs": "Vuoi saperne di più? La nostra Docs currently not available ti insegnerà come configurare ogni aspetto del bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Devi fornire un canale di notifica ticket",

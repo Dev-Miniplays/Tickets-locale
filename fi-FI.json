@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://discord.gg/VtV3rSk\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
+	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://miniplays.de/discord\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
 	"commands.add.no_members": "Sinun täytyy mainita jäseniä, jotka haluat lisätä lippuun",
 	"commands.add.no_permission": "Sinulla ei ole oikeuksia lisätä ihmisiä tähän lippuun",
 	"commands.addadmin.no_members": "Sinun täytyy mainita käyttäjä tai roolin nimi, jolle myönnät järjestelmänvalvojan oikeudet",
@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Sinun täytyy mainita käyttäjä vaihtaaksesi mustan listan tilaa",
 	"commands.blacklist.self": "Et voi mustalistata itseäsi",
 	"commands.claim.success": "%s käsittelee sinun lippusi",
-	"commands.invite": "[Klikkaa tästä](<https://invite.ticketsbot.net>)",
+	"commands.invite": "This Bot can only be added by it´s owner",
 	"commands.language.invalid": "",
 	"commands.open.ticket_limit": "Voit avata vain %d %s kerrallaan",
 	"commands.open.too_many_tickets": "Lippukategoriassa on liian monta lippua. Pyydä ylläpitäjää sulkemaan joitakin, siirtämään ne toiseen kategoriaan tai asettamaan ylivuotokategoria.\n\nTämä on **Discordin asettama raja** 50 kanavaa yhteen kategoriaan.",
 	"commands.panel": "Vieraile <https://ticketsdashboard.miniplays.de/manage/%d/panels> määrittääksesi paneeli",
-	"commands.premium": "Voit ostaa Premium-tilauksen osoitteesta <https://www.patreon.com/ticketsbot>.\\nPremium tarjoaa monia etuja, kuten:\\n````diff\\n+ Luo rajattomasti lippupaneelit\\n+ Mukauta botin nimeä, avatar & status (whitelabel)\\n+ Yksityiskohtaiset tilastot palvelimesta, käyttäjistä ja tukihenkilöistä\\n+ Ei brändäystä viestien alatunnisteessa\\n+ Tue kehitystä ja auta minua maksamaan palvelimen kustannukset\\n```\\n\\nVaihtoehtoisesti, voit äänestää osoitteessa <https://vote.ticketsbot.net> saadaksesi premiumin ilmaiseksi 24 tunniksi",
+	"commands.premium": "Voit ostaa Premium-tilauksen osoitteesta  Currently Not Possible.\\nPremium tarjoaa monia etuja, kuten:\\n````diff\\n+ Luo rajattomasti lippupaneelit\\n+ Mukauta botin nimeä, avatar & status (whitelabel)\\n+ Yksityiskohtaiset tilastot palvelimesta, käyttäjistä ja tukihenkilöistä\\n+ Ei brändäystä viestien alatunnisteessa\\n+ Tue kehitystä ja auta minua maksamaan palvelimen kustannukset\\n```\\n\\nVaihtoehtoisesti, voit äänestää osoitteessa  Currently Not Possible saadaksesi premiumin ilmaiseksi 24 tunniksi",
 	"commands.premium.invalid_key": "Virheellinen avain. Varmista, että olet kopioinut sen oikein.",
 	"commands.remove.no_permission": "Sinulla ei ole oikeuksia poistaa ihmisiä tästä lipusta",
 	"commands.remove.staff": "Et voi poistaa ylläpitäjiä lipusta",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Lippujen määrä on päivitetty `%d`",
 	"setup.transcript.invalid": "Sinun täytyy mainita kelvollinen kanava palvelimella (e.g. <#%d>)\\n**Esimerkki:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transkript kanava on muutettu <#%d>",
-	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](https://discord.gg/bh6aAfP) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
+	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](https://miniplays.de/discord) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
 	"commands.rename.too_long": "Kanavan nimessä ei voi olla yli 100 merkkiä",
 	"commands.autoclose.configure": "Vieraile [dashboard](https://ticketsdashboard.miniplays.de/manage/%d/settings) vaihtaaksesi automaattisen sulkemisen asetuksia",
 	"help.autoclose": "Sulje liittyvät komennot automaattisesti",
@@ -266,7 +266,7 @@
 			},
 			"about": "Premium antaa sinulle pääsyn useampiin paneeleihin, tilastoihin, mukautettuun bottiin ja paljon muuta! Vieraile meidän [verkkosivu](https://tickets.miniplays.de/premium) saadaksesi lisätietoja.",
 			"already_activated": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.",
-			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue [whitelabelin asennus ohje](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue Subsciptions currently not available.",
 			"discord": {
 				"no_subscription": "Premiumin voi ostaa suoraan Discordista. Avaa tilauksen hallintasivu napsauttamalla alla olevaa painiketta.\n\nYksi ostettu, salli enintään 5 minuuttia tilauksen havaitsemiseksi."
 			},
@@ -323,7 +323,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Haluatko tutkia lisää? Meidän [documentation](https://docs.ticketsbot.net) opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
+			"docs": "Haluatko tutkia lisää? Meidän Docs currently not available opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
 		},
 		"threads": {
 			"no_notification_channel": "Sinun on annettava lipukkeiden ilmoitus kanava",
